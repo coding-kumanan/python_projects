@@ -1,4 +1,4 @@
-# Projet Intro
+# Project Intro
 ---
 This is my first project after learning basics of Python.
 This project is to unsderstand the Python functions, if else statements, while loops and Python Lists.
