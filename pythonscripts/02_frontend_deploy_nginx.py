@@ -14,7 +14,7 @@ for i in cmd:
     status=(os.system(i + '&>>/tmp/log.txt'))
     mes(status, i)
 
-print("Downloading HTML Files")
+print("---------------\nDownloading HTML Files")
 i='curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"'
 status=(os.system(i))
 mes(status, i)        
