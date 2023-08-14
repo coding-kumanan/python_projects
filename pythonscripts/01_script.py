@@ -2,7 +2,8 @@ import os
 import sys
 
 cmd= "sudo yum install httpd -y"
-os.system(cmd >> /tmp/log.txt)
+cmd1 = "/tmp/logfile.txt"
+os.system(cmd + cmd1)
 id=os.system("$?") 
 if(id != 0):
     print ("Faililed to Execute the Cmd" + cmd )
