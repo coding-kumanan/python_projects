@@ -5,7 +5,8 @@ def mes(status):
         print("failed")
         exit(-1)
     else:
-         print(i "success")  
+         print(i)
+         print("success")  
     
 
 
