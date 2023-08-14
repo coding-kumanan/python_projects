@@ -2,15 +2,15 @@ import os
 import sys
 def mes(status , i):
     if (status !=0):
-        print("failed")
+        print(i+ "failed")
         exit(-1)
     else:
-         print(i)
-         print("success")  
+         print(i+ "success")
+          
     
 
 
-cmd = ["sudo yum install httd -y", "sudo systemctl enable httpd", "sudo systemctl restart httpd "]  
+cmd = ["sudo yum install htttd -y", "sudo systemctl enable httpd", "sudo systemctl restart httpd "]  
 #for i in cmd:
     #if(os.system(i + '&>>/tmp/log.txt')) !=0:
         #print ("Faililed to Execute the Cmd: ")
