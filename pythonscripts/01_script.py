@@ -5,7 +5,7 @@ def mes(status):
         print("failed")
         exit(-1)
     else:
-         print("success")   
+         print(i "success")  
     
 
 
@@ -18,4 +18,4 @@ cmd = ["sudo yum install httpd -y", "sudo systemctl enable httpd", "sudo systemc
 
 for i in cmd:
     status=(os.system(i + '&>>/tmp/log.txt'))
-    mes(status)
+    mes(status, i)
