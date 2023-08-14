@@ -22,4 +22,7 @@ print("---------------\nDeploy in Nginx Default Location")
 cmd = ["cd /usr/share/nginx/html","rm -rf *","unzip -o /tmp/frontend.zip","mv frontend-main/* .","mv static/* .","rm -rf frontend-main README.md","mv localhost.conf /etc/nginx/default.d/roboshop.conf"]    
 for i in cmd:
     status=(os.system(i + '&>>/tmp/log.txt'))
-    mes(status, i)     
+    mes(status, i)
+
+print("")
+  
