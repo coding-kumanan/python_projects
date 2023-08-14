@@ -1,6 +1,6 @@
 import os
 import sys
-def mes(status):
+def mes(status , i):
     if (status !=0):
         print("failed")
         exit(-1)
